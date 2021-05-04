@@ -153,7 +153,7 @@ class My5WideBoomConfig extends Config(
     new freechips.rocketchip.subsystem.WithNoSlavePort ++
     new freechips.rocketchip.subsystem.WithInclusiveCache ++
     new freechips.rocketchip.subsystem.WithNExtTopInterrupts(0) ++
-    new boom.common.WithGigaBooms ++                              // my 4-wide boom config
+    new boom.common.WithMy5WideBooms ++                              // my 5-wide boom config
     new boom.common.WithNBoomCores(1) ++
     new freechips.rocketchip.subsystem.WithCoherentBusTopology ++
     new freechips.rocketchip.system.BaseConfig)
